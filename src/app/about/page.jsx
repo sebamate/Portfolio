@@ -24,7 +24,7 @@ export default async function Page() {
                 {/* Image at the top in mobile view */}
                 <img
                     className="w-full h-[452px] object-cover rounded-lg"
-                    src="src/image/profileimg.jpeg"
+                    src="/ProfilePic.jpg"
                     alt="About Image"
                 />
 
