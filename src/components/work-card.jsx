@@ -10,14 +10,13 @@ const Work = () => {
                 <h2 className="text-gray-900 dark:text-white font-semibold tracking-tight text-base">Work</h2>
             </div>
             <p className="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.
+                My Professional Experience
             </p>
             <div className="mt-4 flex flex-col gap-4">
                 {[
-                    { company: 'Slack', role: 'Software Engineer', duration: '2016 - Present', imgSrc: 'https://via.placeholder.com/28x28' },
-                    { company: 'Spotify', role: 'Software Engineer', duration: '2014 - 2015', imgSrc: 'https://via.placeholder.com/28x28' },
-                    { company: 'Audible', role: 'Software Engineer', duration: '2012 - 2013', imgSrc: 'https://via.placeholder.com/28x28' },
-                    { company: 'Microsoft', role: 'Software Engineer', duration: '2010 - 2011', imgSrc: 'https://via.placeholder.com/28x28' },
+                    { company: 'Experian', role: 'HR Analyst', duration: '2021 - 2024', imgSrc: '/experian_logo.jpeg' },
+                    { company: 'Experian', role: 'Workforce Management Analyst', duration: '2017 - 2021', imgSrc: '/experian_logo.jpeg' },
+                    
                 ].map((work, index) => (
                     <div key={index} className="flex items-center justify-between gap-4">
                         <div className="flex justify-center items-center w-10 h-10 rounded-full border border-gray-200 dark:border-gray-600 shadow-sm">

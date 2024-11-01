@@ -10,11 +10,16 @@ export default async function Page() {
             {/* Left Side: Text Content */}
             <div className="flex flex-col justify-start items-start gap-6 w-full md:w-[464px] order-1 md:order-1">
                 <h1 className="text-4xl font-bold">
-                    I’m Jane. I live in New York City, where I develop the future.
+                    I’m Sebastian. I live in Lehi, Utah, where I'm preparing to achieve great things.
                 </h1>
-                {Array.from({ length: 4 }, (_, index) => (
+                {Array.from({ length: 1 }, (_, index) => (
                     <p key={index} className="text-gray-600 dark:text-gray-400 text-sm leading-6">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...
+                        I am from Chile. I have a beautiful family that I profoundly love: my wife and 2 daughters of 4 and 2 years old. 
+                        I love learning new things and pushing my limits. Thats why I decided to continue my studies and get an AAS in Data Science at Ensign College.
+                        I loved learning about data and its power in todays world. The develoment of new technologies like AI and machine learning are topics that make me want to participate in this huge advances for the world.
+
+                        My hobbies are playing the guitar and playing videogames. I love composing music and let my creativity flow.
+
                     </p>
                 ))}
             </div>
@@ -32,15 +37,15 @@ export default async function Page() {
                 <div className="flex flex-col gap-6">
                     {/* Follow me on Section with Clickable Icons */}
                     <div className="flex flex-col gap-2">
-                        <a href="https://twitter.com/jane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FontAwesomeIcon icon={faXTwitter} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on X</span>
                         </a>
-                        <a href="https://github.com/jane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <a href="https://github.com/sebamate/Portfolio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FontAwesomeIcon icon={faGithub} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on GitHub</span>
                         </a>
-                        <a href="https://linkedin.com/in/jane" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                        <a href="https://www.linkedin.com/in/sebastian-mateluna-28995815b/?trk=opento_sprofile_details" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FontAwesomeIcon icon={faLinkedin} className="text-gray-900 dark:text-white w-5 h-5" />
                             <span className="text-gray-900 dark:text-white text-sm">Follow me on LinkedIn</span>
                         </a>
@@ -49,7 +54,7 @@ export default async function Page() {
                     {/* Email Section */}
                     <div className="flex items-center border-t border-gray-700 pt-4">
                         <FontAwesomeIcon icon={faEnvelope} className="text-gray-900 dark:text-white w-5 h-5" />
-                        <span className="ml-2 text-gray-900 dark:text-white text-sm">jane@email.com</span>
+                        <span className="ml-2 text-gray-900 dark:text-white text-sm">sebamate.c@gmail.com</span>
                     </div>
                 </div>
             </div>

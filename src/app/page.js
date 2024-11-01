@@ -6,39 +6,38 @@ import Work from "@/components/work-card";
 
 const articles = [
     {
-        date: "December 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
-        link: '#'
+        date: "October 31, 2024",
+        title: 'Free Harvard courses',
+        description: 'If you want to improve your skills in CS and working with data, take a look into the free CS50 courses that Harvard University offers.',
+        link: 'https://pll.harvard.edu/catalog?topics%5B702%5D=702&max_price=&start_date=&keywords='
     },
     {
-        date: "December 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
-        link: '#'
+        date: "September 18, 2024",
+        title: 'Tech Careers Roadmaps',
+        description: 'You want to improve your skills, but you dont know what to learn next? Explore this awesome webpage to check Roadmaps by Career that will show you the most important skills for your area.',
+        link: 'https://roadmap.sh/roadmaps'
     },
-    {
-        date: "December 1, 2021",
-        title: 'Lorem ipsum dolor sit amet consectetur',
-        description: 'Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum',
-        link: '#'
-    }
+    
 ]
 
 export default async function Home() {
     const data = {
         languages: [
             {
-                name: 'JavaScript',
-                percent: 95,
+                name: 'Java',
+                percent: 85,
             },
             {
-                name: 'CSS',
-                percent: 30,
+                name: 'Python',
+                percent: 70,
             },
             {
-                name: 'HTML',
-                percent: 10,
+                name: 'SQL',
+                percent: 80,
+            },
+            {
+                name: 'Javascript',
+                percent: 80,
             },
         ],
     };

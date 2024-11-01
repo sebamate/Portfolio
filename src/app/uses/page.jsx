@@ -54,7 +54,7 @@ export default function Uses() {
             <div className="w-full md:w-2/3">
                 <SectionTitle
                     title="Software I use, gadgets I love, and other things I recommend."
-                    description="Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut et massa mi."
+                    description="Things that have helped me be a better professional"
                 />
             </div>
 
@@ -63,17 +63,17 @@ export default function Uses() {
                     categoryName="Workstation"
                     items={[
                         {
-                            name: "Monitor",
-                            description: "High-quality display with excellent color accuracy and resolution."
+                            name: "Laptop - Asus Zenbook 14 OLED",
+                            description: "A great thin laptop, very powerful and with an awesome screen"
                         },
                         {
-                            name: "Keyboard",
-                            description: "Mechanical keyboard with tactile switches."
+                            name: "Mouse - Razer DeathAdder",
+                            description: "Budget friendly mouse that gets the job done. Great response and feeling"
                         },
                     ]}
                 />
                 <Category
-                    categoryName="Development Tools"
+                    categoryName="Development & Visualization Tools"
                     items={[
                         {
                             name: "VS Code",
@@ -83,6 +83,10 @@ export default function Uses() {
                             name: "Git",
                             description: "Essential for version control and collaboration on projects."
                         },
+                        {
+                            name: "Power BI",
+                            description: "Powerful visualization tool to manipulate data and deliver meaningful dashboards."
+                        },
                     ]}
                 />
                 <Category
@@ -90,24 +94,21 @@ export default function Uses() {
                     items={[
                         {
                             name: "Figma",
-                            description: "Powerful design tool with collaboration features."
+                            description: "Powerful design tool with collaboration features. Also has a simple yet powrful prototype feature."
                         },
-                        {
-                            name: "Whimsical",
-                            description: "Useful for flowcharts and quick prototyping."
-                        },
+                        
                     ]}
                 />
                 <Category
                     categoryName="Productivity"
                     items={[
                         {
-                            name: "Notion",
-                            description: "All-in-one workspace for notes, project management, and databases."
+                            name: "MS Planner",
+                            description: "Great tool to organize tasks and share with others."
                         },
                         {
-                            name: "Todoist",
-                            description: "Simple and effective task management app."
+                            name: "Power Automate",
+                            description: "Very useful tool to automate daily tasks and improve efficiency"
                         },
                     ]}
                 />
